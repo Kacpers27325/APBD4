@@ -1,0 +1,8 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e281ec1e_002Dfc86_002D4bb3_002D9b88_002Dbbb09c8ceb9b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="AddUserFalseWhenFirstNameIsEmpty" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::2797C2B7-1A3A-4681-90E7-6F584F7623F4::net8.0::LegacyApp.Tests.UserServiceTests.AddUserFalseWhenFirstNameIsEmpty&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::2797C2B7-1A3A-4681-90E7-6F584F7623F4::net8.0::LegacyApp.Tests.UserServiceTests.AddUserFalseWhenLastNameIsEmpty&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::2797C2B7-1A3A-4681-90E7-6F584F7623F4::net8.0::LegacyApp.Tests.UserServiceTests.AddUser_ThrowsExceptionWhenCustomerDontExist&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
