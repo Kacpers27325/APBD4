@@ -75,6 +75,24 @@ public class UserServiceTests
     
     
     // AddUser_ReturnsTrueWhenVeryImportantClient
+    [Fact]
+    public void AddUser_ReturnsTrueWhenVeryImportantClient()
+    {
+        //Arrange
+        ClientRepository rep = new ClientRepository();
+        
+        //Act
+        var result = rep.GetById(2);
+        
+        //Assert
+        Assert.NotNull(result);
+        Assert.Equal("VeryImportantClient", result.Type);
+    }
+    
+    
+    
+    
+    
     // AddUser_ReturnsTrueWhenImportantClient
     // AddUser_ReturnsTrueWhenNormalClient
     // AddUser_ReturnsFalseWhenNormalClientWithNoCreditLimit
