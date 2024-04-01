@@ -10,7 +10,7 @@ public class UserServiceTests
         var userService = new UserService();
         
         //Act
-        var result = userService.AddUser(null, "K", "aaa@aaa.com",DateTime.Parse("1992-02-03"),10);
+        var result = userService.AddUser(null, "K", "aaa@aaa.com",DateTime.Parse("1992-02-03"),1);
 
         //Assert
         Assert.False(result);
@@ -23,7 +23,7 @@ public class UserServiceTests
         var userService = new UserService();
         
         //Act
-        var result = userService.AddUser("Mariusz", null, "aaa@aaa.com",DateTime.Parse("1992-02-03"),10);
+        var result = userService.AddUser("Mariusz", null, "aaa@aaa.com",DateTime.Parse("1992-02-03"),1);
 
         //Assert
         Assert.False(result);
@@ -36,7 +36,7 @@ public class UserServiceTests
         var userService = new UserService();
         
         //Act
-        Action result = () => userService.AddUser("Mietek", "K", "aaa@aaa.com",DateTime.Parse("1992-02-03"),10);
+        Action result = () => userService.AddUser("Mietek", "K", "aaa@aaa.com",DateTime.Parse("1992-02-03"),1);
         
 
         //Assert
@@ -51,7 +51,7 @@ public class UserServiceTests
         var userService = new UserService();
         
         //Act
-        var result = userService.AddUser(null, "K", "aaaacom",DateTime.Parse("1992-02-03"),10);
+        var result = userService.AddUser(null, "K", "aaaacom",DateTime.Parse("1992-02-03"),1);
 
         //Assert
         Assert.False(result);
@@ -66,7 +66,7 @@ public class UserServiceTests
         var userService = new UserService();
         
         //Act
-        var result =  userService.AddUser("Mietek", "K", "aaa@aaa.com",DateTime.Parse("2022-02-03"),10);
+        var result =  userService.AddUser("Mietek", "K", "aaa@aaa.com",DateTime.Parse("2022-02-03"),1);
         
 
         //Assert
@@ -164,9 +164,4 @@ public class UserServiceTests
         //Assert
         Assert.Throws<ArgumentException>(result);
     }
-    
-    
-    
-    
-    
 }
